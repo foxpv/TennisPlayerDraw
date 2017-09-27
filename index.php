@@ -137,7 +137,7 @@
 							array(" ", false),
 							array("Fabricio", false),
 							array(" ", false),
-							array("<div class='data_horario_jogo'> 30/09 17hs </div>Paulo", false),
+							array("<div class='data_horario_jogo'> 30/09 13hs </div>Paulo", false),
 							array(" ", false),
 							array("Bye", false),
 							array(" ", false),
@@ -200,7 +200,7 @@
 							<td>Thiago</td>
 						</tr>
 						<tr>
-							<td>Alessandr</td>
+							<td>Alessandra</td>
 						</tr>
 					</table>
 				</div>
@@ -208,11 +208,11 @@
 					<h3>Jogos</h3>
 					<ul>
 						<li>Edson vs Thiago 30/09 10:00</li>
-						<li>Caio vs Alessandr 30/09 12:00</li>
-						<li>Edson vs Alessandr 01/10 08:00</li>
+						<li>Caio vs Alessandra 30/09 12:00</li>
+						<li>Edson vs Alessandra 01/10 08:00</li>
 						<li>Caio vs Thiago 01/10 10:00</li>
 						<li>Edson vs Caio</li>
-						<li>Thiago vs Alessandr</li>
+						<li>Thiago vs Alessandra</li>
 					</ul>
 				</div>
 			</div>
