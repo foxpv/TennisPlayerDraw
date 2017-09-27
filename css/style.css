@@ -1,6 +1,6 @@
 td{
         width: 150px;
-        height: 15px;
+        height: 25px;
         
 }
 
@@ -22,4 +22,18 @@ td.center{
 
 td.head{
         background-color: #EFEFEF;
+}
+
+.data_horario_jogo{
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.data_horario_jogo_r2{
+	margin-top: -53px;
+	font-weight: bold;
+}
+
+.jogador_de_baixo{
+	margin-top: 24px;
 }

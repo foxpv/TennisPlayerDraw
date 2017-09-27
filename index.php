@@ -26,18 +26,18 @@
 		<div class="tab-pane active" id="dv_classe_a">
 			
 			<div class="row" >
-				<div class="span6">
+				<div class="span12">
 					<?php
 
 					$jogadoresA = array(
 						32 => array(
 							array("Alfredo", false), 
 							array(" ", false), 
-							array("Fred", false), 
+							array("<div class='data_horario_jogo'> 29/09 18hs </div>Fred", false), 
 							array(" ", false), 
 							array("Fabio", false), 
 							array(" ", false), 
-							array("Diogo", false), 
+							array("<div class='data_horario_jogo'> 29/09 19:30hs </div>Diogo", false), 
 							array(" ", false), 
 							array("Luciano", false), 
 							array(" ", false), 
@@ -53,11 +53,11 @@
 							array(" ", false),
 							array("João", false),
 							array(" ", false),
-							array("Dalmy", false),
+							array("<div class='data_horario_jogo'> 30/09 16hs </div>Dalmy", false),
 							array(" ", false),
 							array("Aldren", false),
 							array(" ", false),
-							array("Pedro", false),
+							array("<div class='data_horario_jogo'> 29/09 21hs </div>Pedro", false),
 							array(" ", false),
 							array("Bye", false),
 							array(" ", false),
@@ -97,15 +97,7 @@
 					echo($html);
 					?>
 				</div>
-				<div class="span6">
-					<h3>Rodada1</h3>
-					<ul>
-						<li>Fabio vs Diogo</li>
-						<li>Luciano vs Marcelo</li>
-						<li>João Pedro vs Dalmy</li>
-						<li>Aldren vs Pedro A.</li>
-					</ul>
-				</div>
+				
 			</div>
 		</div>
 	
@@ -114,7 +106,7 @@
 		<div class="tab-pane" id="dv_classe_b">
 			
 			<div class="row" >
-				<div class="span6">
+				<div class="span12">
 					<?php
 
 					$jogadoresB = array(
@@ -125,11 +117,11 @@
 							array(" ", false), 
 							array("Luis", false), 
 							array(" ", false), 
-							array("Diogo", false), 
+							array("<div class='data_horario_jogo'> 30/09 17hs </div>Diogo", false), 
 							array(" ", false), 
 							array("Pedro A.", false), 
 							array(" ", false), 
-							array("Bruno G.", false), 
+							array("<div class='data_horario_jogo'> 30/09 13hs </div>Bruno G.", false), 
 							array(" ", false), 
 							array("Bye", false), 
 							array(" ", false), 
@@ -141,11 +133,11 @@
 							array(" ", false),
 							array("Pedro S.", false),
 							array(" ", false),
-							array("Dado", false),
+							array("<div class='data_horario_jogo'> 30/09 14hs </div>Dado", false),
 							array(" ", false),
 							array("Fabricio", false),
 							array(" ", false),
-							array("Paulo", false),
+							array("<div class='data_horario_jogo'> 30/09 17hs </div>Paulo", false),
 							array(" ", false),
 							array("Bye", false),
 							array(" ", false),
@@ -154,19 +146,19 @@
 						16 => array(
 							array("Marcelo", false), 
 							array("", false), 
-							array("", false), 
+							array("<div class='data_horario_jogo_r2'> 01/10 12:30hs </div>", false), 
 							array("", false), 
 							array("", false),
 							array("", false), 
-							array("Maria", false), 
+							array("<div class='data_horario_jogo_r2'> 01/10 15hs </div><div class='jogador_de_baixo'>Maria</div>", false), 
 							array("", false), 
 							array("Duda", false), 
 							array("", false), 
+							array("<div class='data_horario_jogo_r2'> 01/10 16hs </div>", false), 
 							array("", false), 
 							array("", false), 
 							array("", false), 
-							array("", false), 
-							array("Aldren", false), 
+							array("<div class='data_horario_jogo_r2'> 01/10 11hs </div><div class='jogador_de_baixo'>Aldren</div>", false), 
 							array("", false)),
 						8 => array(
 							array("", false), 
@@ -185,15 +177,7 @@
 					echo($html);
 					?>
 				</div>
-				<div class="span6">
-					<h3>Rodada1</h3>
-					<ul>
-						<li>Luis vs Diogo</li>
-						<li>Pedro A. vs Bruno G.</li>
-						<li>Pedro S. vs Dado</li>
-						<li>Fabricio vs Paulo</li>
-					</ul>
-				</div>
+				
 			</div>
 		</div>
 
@@ -210,25 +194,25 @@
 							<td>Edson</td>
 						</tr>
 						<tr>
-							<td>Fabio</td>
+							<td>Caio</td>
 						</tr>
 						<tr>
-							<td>Wagner</td>
+							<td>Thiago</td>
 						</tr>
 						<tr>
-							<td>Alessandra</td>
+							<td>Alessandr</td>
 						</tr>
 					</table>
 				</div>
 				<div class="span6">
 					<h3>Jogos</h3>
 					<ul>
-						<li>Edson vs Fabio</li>
-						<li>Wagner vs Alessandra</li>
-						<li>Edson vs Alessandra</li>
-						<li>Fabio vs Wagner</li>
-						<li>Edson vs Wager</li>
-						<li>Fabio vs Alessandra</li>
+						<li>Edson vs Thiago 30/09 10:00</li>
+						<li>Caio vs Alessandr 30/09 12:00</li>
+						<li>Edson vs Alessandr 01/10 08:00</li>
+						<li>Caio vs Thiago 01/10 10:00</li>
+						<li>Edson vs Caio</li>
+						<li>Thiago vs Alessandr</li>
 					</ul>
 				</div>
 			</div>
@@ -240,28 +224,28 @@
 							<td class="head">Nome</td>
 						</tr>
 						<tr>
-							<td>Mayconl</td>
+							<td>Fernanda</td>
 						</tr>
 						<tr>
-							<td>Caio</td>
+							<td>Fabio</td>
 						</tr>
 						<tr>
-							<td>Thiago</td>
+							<td>Vagner</td>
 						</tr>
 						<tr>
-							<td>Lucas</td>
+							<td>Mariliane</td>
 						</tr>
 					</table>
 				</div>
 				<div class="span6">
 					<h3>Jogos</h3>
 					<ul>
-						<li>Mayconl vs Caio</li>
-						<li>Thiago vs Lucas</li>
-						<li>Mayconl vs Lucas</li>
-						<li>Caio vs Thiago</li>
-						<li>Mayconl vs Thiago</li>
-						<li>Caio vs Lucas</li>
+						<li>Fabio vs Vagner 30/09 11:00</li>
+						<li>Fernanda vs Mariliane 30/09 15:00</li>
+						<li>Vagner vs Mariliane 01/10 09:00</li>
+						<li>Fernanda vs Fabio 01/10 14:00</li>
+						<li>Fernanda vs Vagner</li>
+						<li>Fabio vs Mariliane</li>
 					</ul>
 				</div>
 			</div>
