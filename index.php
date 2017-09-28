@@ -122,7 +122,7 @@
 							array(" ", false), 
 							array("Pedro A.", false), 
 							array(" ", false), 
-							array("<div class='data_horario_jogo'> 30/09 13hs </div>Bruno G.", false), 
+							array("<div class='data_horario_jogo'> 30/09 15hs </div>Bruno G.", false), 
 							array(" ", false), 
 							array("Bye", false), 
 							array(" ", false), 
