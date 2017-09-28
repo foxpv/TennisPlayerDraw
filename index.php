@@ -22,7 +22,7 @@
       <li><a href="#dv_classe_c" data-toggle="tab">Classe C</a></li>
     </ul>
 	
-	<div class="tab-content" >
+	<div class="tab-content" id="dvChave">
 		<div class="tab-pane active" id="dv_classe_a">
 			
 			<div class="row" >
@@ -99,6 +99,7 @@
 				</div>
 				
 			</div>
+			<a href="javascript:printDiv('dv_classe_a')">Imprimir</a>
 		</div>
 	
 
@@ -179,6 +180,7 @@
 				</div>
 				
 			</div>
+			<a href="javascript:printDiv('dv_classe_b')">Imprimir</a>
 		</div>
 
 		<div class="tab-pane" id="dv_classe_c">
@@ -249,8 +251,18 @@
 					</ul>
 				</div>
 			</div>
+			<a href="javascript:printDiv('dv_classe_c')">Imprimir</a>
 		</div>
 	</div>
 	
+	<iframe name="print_frame" width="0" height="0" frameborder="0" src="about:blank"></iframe>
 </body>
+<script>
+    printDivCSS = new String ('<style>td{width: 150px;height: 25px;}td.underline{border-bottom: 1px solid #000000;}td.left{border-left: 1px solid #000000;}td.right{border-right: 1px solid #000000;}td.center{text-align: center;}td.head{background-color: #EFEFEF;}.data_horario_jogo{margin-bottom: 10px;font-weight: bold;}.data_horario_jogo_r2{margin-top: -53px;font-weight: bold;}.jogador_de_baixo{margin-top: 24px;}</style>');
+    function printDiv(divId) {
+        window.frames["print_frame"].document.body.innerHTML=printDivCSS + document.getElementById(divId).innerHTML;
+        window.frames["print_frame"].window.focus();
+        window.frames["print_frame"].window.print();
+    }
+</script>
 </html>

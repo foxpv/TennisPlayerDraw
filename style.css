@@ -1,0 +1,39 @@
+td{
+        width: 150px;
+        height: 25px;
+        
+}
+
+td.underline{
+        border-bottom: 1px solid #000000;
+}
+
+td.left{
+        border-left: 1px solid #000000;
+}
+
+td.right{
+        border-right: 1px solid #000000;
+}
+
+td.center{
+        text-align: center;
+}
+
+td.head{
+        background-color: #EFEFEF;
+}
+
+.data_horario_jogo{
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.data_horario_jogo_r2{
+	margin-top: -53px;
+	font-weight: bold;
+}
+
+.jogador_de_baixo{
+	margin-top: 24px;
+}
