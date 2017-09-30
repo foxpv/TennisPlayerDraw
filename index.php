@@ -64,7 +64,7 @@
 							array("Nelson", false),
 							array(" ", false)),
 						16 => array(
-							array(" ", false), 
+							array("Alfredo 6/1 6/3", false), 
 							array(" ", false), 
 							array(" ", false), 
 							array(" ", false), 
@@ -76,7 +76,7 @@
 							array("", false), 
 							array(" ", false), 
 							array(" ", false), 
-							array("  ", false), 
+							array("Pedro 6/2 2/6 10/5", false), 
 							array("", false), 
 							array("Nelson", false), 
 							array(" ", false)),
@@ -208,14 +208,15 @@
 				</div>
 				<div class="span6">
 					<h3>Jogos</h3>
-					<ul>
-						<li>Edson vs Thiago 30/09 10:00</li>
-						<li>Caio vs Alessandra 30/09 12:00</li>
-						<li>Edson vs Alessandra 01/10 08:00</li>
-						<li>Caio vs Thiago 01/10 10:00</li>
-						<li>Edson vs Caio</li>
-						<li>Thiago vs Alessandra</li>
-					</ul>
+					<table>
+						<tr><td class="head" style="width:250px;">Jogo</td><td class="head">Resultado</td></tr>
+						<tr><td>Edson vs Thiago 30/09 10:00</td><td></td></tr>
+						<tr><td>Caio vs Alessandra 30/09 12:00</td><td></td></tr>
+						<tr><td>Edson vs Alessandra 01/10 08:00</td><td></td></tr>
+						<tr><td>Caio vs <b>Thiago</b> 01/10 10:00</td><td>Thiago 8/5</td></tr>
+						<tr><td>Edson vs Caio</td><td></td></tr>
+						<tr><td>Thiago vs Alessandra</td><td></td></tr>
+					</table>
 				</div>
 			</div>
 			<div class="row" >
@@ -241,14 +242,15 @@
 				</div>
 				<div class="span6">
 					<h3>Jogos</h3>
-					<ul>
-						<li>Fabio vs Vagner 30/09 11:00</li>
-						<li>Fernanda vs Mariliane 30/09 15:00</li>
-						<li>Vagner vs Mariliane 01/10 09:00</li>
-						<li>Fernanda vs Fabio 01/10 14:00</li>
-						<li>Fernanda vs Vagner</li>
-						<li>Fabio vs Mariliane</li>
-					</ul>
+					<table>
+						<tr><td class="head" style="width:250px;">Jogo</td><td class="head">Resultado</td></tr>
+						<tr><td>Fabio vs Vagner 30/09 11:00</td><td></td></tr>
+						<tr><td>Fernanda vs Mariliane 30/09 15:00</td><td></td></tr>
+						<tr><td>Vagner vs Mariliane 01/10 09:00</td><td></td></tr>
+						<tr><td>Fernanda vs <b>Fabio</b> 01/10 14:00 </td><td>Fabio 8/6</td></tr>
+						<tr><td>Fernanda vs Vagner</td><td></td></tr>
+						<tr><td>Fabio vs Mariliane</td><td></td></tr>
+					</table>
 				</div>
 			</div>
 			<a href="javascript:printDiv('dv_classe_c')">Imprimir</a>
