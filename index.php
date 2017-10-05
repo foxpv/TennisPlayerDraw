@@ -190,29 +190,39 @@
 					<h3>Grupo A</h3>
 					<table>
 						<tr>
+							<td class="head">Posição</td>
 							<td class="head">Nome</td>
 							<td class="head">Vitórias</td>
 							<td class="head">Derrotas</td>
+							<td class="head">Saldo</td>
 						</tr>
 						<tr>
-							<td>Edson</td>
-							<td></td>
 							<td>1</td>
-						</tr>
-						<tr>
-							<td>Caio</td>
-							<td></td>
-							<td>1</td>
-						</tr>
-						<tr>
-							<td>Thiago</td>
-							<td>1</td>
-							<td></td>
-						</tr>
-						<tr>
 							<td>Alessandra</td>
 							<td>1</td>
 							<td></td>
+							<td>3</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>Thiago</td>
+							<td>1</td>
+							<td></td>
+							<td>3</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>Caio</td>
+							<td></td>
+							<td>1</td>
+							<td>-3</td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td>Edson</td>
+							<td></td>
+							<td>1</td>
+							<td>-3</td>
 						</tr>
 					</table>
 				</div>
@@ -234,29 +244,39 @@
 					<h3>Grupo B</h3>
 					<table>
 						<tr>
+							<td class="head">Posição</td>
 							<td class="head">Nome</td>
 							<td class="head">Vitórias</td>
 							<td class="head">Derrotas</td>
+							<td class="head">Saldo</td>
 						</tr>
 						<tr>
-							<td>Fernanda</td>
 							<td>1</td>
-							<td>1</td>
-						</tr>
-						<tr>
-							<td>Fabio</td>
-							<td>1</td>
-							<td></td>
-						</tr>
-						<tr>
 							<td>Vagner</td>
 							<td>1</td>
 							<td>1</td>
+							<td>4</td>
 						</tr>
 						<tr>
+							<td>2</td>
+							<td>Fabio</td>
+							<td>1</td>
+							<td></td>
+							<td>2</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>Fernanda</td>
+							<td>1</td>
+							<td>1</td>
+							<td>1</td>
+						</tr>
+						<tr>
+							<td>4</td>
 							<td>Mariliane</td>
 							<td></td>
 							<td>1</td>
+							<td>-7</td>
 						</tr>
 					</table>
 				</div>
