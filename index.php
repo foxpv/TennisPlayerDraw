@@ -53,7 +53,7 @@
 							array(" ", false),
 							array("João", false),
 							array(" ", false),
-							array("<div class='data_horario_jogo'> 30/09 16hs </div>Dalmy", false),
+							array("<div class='data_horario_jogo'> 08/10 9:30hs </div>Dalmy", false),
 							array(" ", false),
 							array("Aldren", false),
 							array(" ", false),
@@ -66,9 +66,9 @@
 						16 => array(
 							array("Alfredo 6/1 6/3", false), 
 							array(" ", false), 
+							array("<div class='data_horario_jogo_r2'> 06/10 18:00 </div><div class='jogador_de_baixo'>Fabio - WO</div>", false), 
 							array(" ", false), 
-							array(" ", false), 
-							array(" ", false), 
+							array("Luciano", false), 
 							array(" ", false), 
 							array("Mauricio", false), 
 							array(" ", false), 
@@ -78,7 +78,7 @@
 							array(" ", false), 
 							array("Pedro 6/2 2/6 10/5", false), 
 							array("", false), 
-							array("Nelson", false), 
+							array("<div class='data_horario_jogo_r2'> 08/10 11:00 </div><div class='jogador_de_baixo'>Nelson</div>", false), 
 							array(" ", false)),
 						8 => array(
 							array(" ", false), 
@@ -118,11 +118,11 @@
 							array(" ", false), 
 							array("Luis", false), 
 							array(" ", false), 
-							array("<div class='data_horario_jogo'> 30/09 17hs </div>Diogo", false), 
+							array("<div class='data_horario_jogo'> 07/10 11:30hs </div>Diogo", false), 
 							array(" ", false), 
 							array("Pedro A.", false), 
 							array(" ", false), 
-							array("<div class='data_horario_jogo'> 30/09 15hs </div>Bruno G.", false), 
+							array("<div class='data_horario_jogo'> 06/10 21:00hs </div>Bruno G.", false), 
 							array(" ", false), 
 							array("Bye", false), 
 							array(" ", false), 
@@ -134,7 +134,7 @@
 							array(" ", false),
 							array("Pedro S.", false),
 							array(" ", false),
-							array("<div class='data_horario_jogo'> 30/09 14hs </div>Dado", false),
+							array("<div class='data_horario_jogo'> 07/10 16:00hs </div>Dado", false),
 							array(" ", false),
 							array("Fabricio", false),
 							array(" ", false),
@@ -147,19 +147,19 @@
 						16 => array(
 							array("Marcelo", false), 
 							array("", false), 
-							array("<div class='data_horario_jogo_r2'> 01/10 12:30hs </div>", false), 
+							array("<div class='data_horario_jogo_r2'> 01/10 08:00hs </div>", false), 
 							array("", false), 
 							array("", false),
 							array("", false), 
-							array("<div class='data_horario_jogo_r2'> 01/10 15hs </div><div class='jogador_de_baixo'>Maria</div>", false), 
+							array("<div class='data_horario_jogo_r2'> 07/10 10:00hs </div><div class='jogador_de_baixo'>Maria</div>", false), 
 							array("", false), 
 							array("Duda", false), 
 							array("", false), 
-							array("<div class='data_horario_jogo_r2'> 01/10 16hs </div>", false), 
+							array("<div class='data_horario_jogo_r2'> 08/10 12:30hs </div>", false), 
 							array("", false), 
+							array("Fabricio 6/1 6/0", false), 
 							array("", false), 
-							array("", false), 
-							array("<div class='data_horario_jogo_r2'> 01/10 11hs </div><div class='jogador_de_baixo'>Aldren</div>", false), 
+							array("<div class='data_horario_jogo_r2'> 08/10 08:00hs </div><div class='jogador_de_baixo'>Aldren</div>", false), 
 							array("", false)),
 						8 => array(
 							array("", false), 
@@ -191,18 +191,28 @@
 					<table>
 						<tr>
 							<td class="head">Nome</td>
+							<td class="head">Vitórias</td>
+							<td class="head">Derrotas</td>
 						</tr>
 						<tr>
 							<td>Edson</td>
+							<td></td>
+							<td>1</td>
 						</tr>
 						<tr>
 							<td>Caio</td>
+							<td></td>
+							<td>1</td>
 						</tr>
 						<tr>
 							<td>Thiago</td>
+							<td>1</td>
+							<td></td>
 						</tr>
 						<tr>
 							<td>Alessandra</td>
+							<td>1</td>
+							<td></td>
 						</tr>
 					</table>
 				</div>
@@ -210,12 +220,12 @@
 					<h3>Jogos</h3>
 					<table>
 						<tr><td class="head" style="width:250px;">Jogo</td><td class="head">Resultado</td></tr>
-						<tr><td>Edson vs Thiago 30/09 10:00</td><td></td></tr>
-						<tr><td>Caio vs Alessandra 30/09 12:00</td><td></td></tr>
-						<tr><td>Edson vs Alessandra 01/10 08:00</td><td></td></tr>
 						<tr><td>Caio vs <b>Thiago</b> 01/10 10:00</td><td>Thiago 8/5</td></tr>
-						<tr><td>Edson vs Caio</td><td></td></tr>
-						<tr><td>Thiago vs Alessandra</td><td></td></tr>
+						<tr><td>Edson vs Thiago 07/10 13:00</td><td></td></tr>
+						<tr><td>Caio vs Alessandra 07/10 14:00</td><td></td></tr>
+						<tr><td>Edson vs Alessandra 08/10 12:30</td><td></td></tr>
+						<tr><td>Edson vs Caio 08/10 14:00</td><td></td></tr>
+						<tr><td>Thiago vs Alessandra 08/10 14:00</td><td></td></tr>
 					</table>
 				</div>
 			</div>
@@ -225,18 +235,28 @@
 					<table>
 						<tr>
 							<td class="head">Nome</td>
+							<td class="head">Vitórias</td>
+							<td class="head">Derrotas</td>
 						</tr>
 						<tr>
 							<td>Fernanda</td>
+							<td>1</td>
+							<td>1</td>
 						</tr>
 						<tr>
 							<td>Fabio</td>
+							<td>1</td>
+							<td></td>
 						</tr>
 						<tr>
 							<td>Vagner</td>
+							<td>1</td>
+							<td>1</td>
 						</tr>
 						<tr>
 							<td>Mariliane</td>
+							<td></td>
+							<td>1</td>
 						</tr>
 					</table>
 				</div>
@@ -244,12 +264,12 @@
 					<h3>Jogos</h3>
 					<table>
 						<tr><td class="head" style="width:250px;">Jogo</td><td class="head">Resultado</td></tr>
-						<tr><td>Fabio vs Vagner 30/09 11:00</td><td></td></tr>
-						<tr><td>Fernanda vs Mariliane 30/09 15:00</td><td></td></tr>
-						<tr><td>Vagner vs Mariliane 01/10 09:00</td><td></td></tr>
+						<tr><td><b>Vagner</b> vs Mariliane 01/10 09:00</td><td>Vagner 8/1</td></tr>
 						<tr><td>Fernanda vs <b>Fabio</b> 01/10 14:00 </td><td>Fabio 8/6</td></tr>
-						<tr><td>Fernanda vs Vagner</td><td></td></tr>
-						<tr><td>Fabio vs Mariliane</td><td></td></tr>
+						<tr><td><b>Fernanda</b> vs Vagner</td><td>Fernanda 8/5</td></tr>
+						<tr><td>Fabio vs Vagner 06/10 17:00</td><td></td></tr>
+						<tr><td>Fernanda vs Mariliane 30/09 15:00</td><td></td></tr>						
+						<tr><td>Fabio vs Mariliane 08/10 15:00</td><td></td></tr>
 					</table>
 				</div>
 			</div>
