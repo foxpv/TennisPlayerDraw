@@ -53,7 +53,7 @@
 							array(" ", false),
 							array("João", false),
 							array(" ", false),
-							array("<div class='data_horario_jogo'> 08/10 9:30hs </div>Dalmy", false),
+							array("<div class='data_horario_jogo'> 08/10 8:00hs </div>Dalmy", false),
 							array(" ", false),
 							array("Aldren", false),
 							array(" ", false),
@@ -78,7 +78,7 @@
 							array(" ", false), 
 							array("Pedro 6/2 2/6 10/5", false), 
 							array("", false), 
-							array("<div class='data_horario_jogo_r2'> 08/10 11:00 </div><div class='jogador_de_baixo'>Nelson</div>", false), 
+							array("<div class='data_horario_jogo_r2'> 08/10 09:30 </div><div class='jogador_de_baixo'>Nelson</div>", false), 
 							array(" ", false)),
 						8 => array(
 							array(" ", false), 
@@ -159,7 +159,7 @@
 							array("", false), 
 							array("Fabricio 6/1 6/0", false), 
 							array("", false), 
-							array("<div class='data_horario_jogo_r2'> 08/10 08:00hs </div><div class='jogador_de_baixo'>Aldren</div>", false), 
+							array("<div class='data_horario_jogo_r2'> 08/10 11:00hs </div><div class='jogador_de_baixo'>Aldren</div>", false), 
 							array("", false)),
 						8 => array(
 							array("", false), 
