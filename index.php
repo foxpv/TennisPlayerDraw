@@ -233,8 +233,8 @@
 						<tr><td>Caio vs <b>Thiago</b> 01/10 10:00</td><td>Thiago 8/5</td></tr>
 						<tr><td>Edson vs <b>Alessandra</b> 08/10 12:30</td><td>Alessandra 8/5</td></tr>
 						<tr><td>Edson vs Thiago 07/10 13:00</td><td></td></tr>
-						<tr><td>Caio vs Alessandra 07/10 14:00</td><td></td></tr>
-						<tr><td>Edson vs Caio 08/10 14:00</td><td></td></tr>
+						<tr><td>Edson vs Caio 08/10 13:30</td><td></td></tr>
+						<tr><td>Caio vs Alessandra 07/10 14:30</td><td></td></tr>
 						<tr><td>Thiago vs Alessandra 08/10 14:00</td><td></td></tr>
 					</table>
 				</div>
