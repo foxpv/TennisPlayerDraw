@@ -166,7 +166,7 @@
 							array("<div class='data_horario_jogo_r2'> 08/10 11:00hs </div><div class='jogador_de_baixo'>Aldren</div>", false), 
 							array("", false)),
 						8 => array(
-							array("Diogo 6/2 2/6 10/4", false), 
+							array("Diogo 6/4 3/6 10/2", false), 
 							array("", false), 
 							array("Bruno 6/4 4/6 10/8", false), 
 							array("", false), 
