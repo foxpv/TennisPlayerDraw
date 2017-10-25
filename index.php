@@ -260,17 +260,17 @@
 						</tr>
 						<tr>
 							<td>1</td>
-							<td>Vagner</td>
+							<td>Fernanda</td>
 							<td>2</td>
 							<td>1</td>
 							<td>6</td>
 						</tr>
 						<tr>
 							<td>2</td>
-							<td>Fernanda</td>
+							<td>Vagner</td>
 							<td>2</td>
 							<td>1</td>
-							<td>7</td>
+							<td>6</td>
 						</tr>
 						<tr>
 							<td>3</td>
@@ -296,7 +296,7 @@
 						<tr><td>Fernanda vs <b>Fabio</b> 01/10 14:00 </td><td>Fabio 8/6</td></tr>
 						<tr><td><b>Fernanda</b> vs Vagner</td><td>Fernanda 8/4</td></tr>
 						<tr><td>Fabio vs <b>Vagner</b> 06/10 17:00</td><td>Vagner 8/5</td></tr>
-						<tr><td><b>Fernanda</b> vs Mariliane 30/09 15:00</td><td>Fernanda 9/4</td></tr>						
+						<tr><td><b>Fernanda</b> vs Mariliane 30/09 15:00</td><td>Fernanda 8/4</td></tr>						
 						<tr><td><b>Fabio</b> vs Mariliane 08/10 15:00</td><td>Fabio 8/2</td></tr>
 					</table>
 				</div>
@@ -309,11 +309,11 @@
 						8 => array(
 							array("Thiago", false), 
 							array("", false), 
-							array("Fernanda", false), 
+							array("Vagner", false), 
 							array("", false), 
 							array("Alessandra", false), 
 							array("", false), 
-							array("Vagner", false), 
+							array("Fernanda", false), 
 							array("", false)),
 						4 => array(
 							array("", false),
