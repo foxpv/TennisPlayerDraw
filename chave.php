@@ -6,32 +6,41 @@ function tabela_chave($int_player_total, $jogadores){
 
 	
 	//set header
-	//$arr_round_data = array();
-	$arr_round_data = array(
-			2 => array(2 => 'Final'),
-			4 => array(4 => 'SF', 2 => 'Final'),
-			8 => array( 
-				8 => array("fase" => 'QF', "players" => $jogadores[8]), 
-				4 => array("fase" => 'SF', "players" => $jogadores[4]), 
-				2 => array("fase" => 'Final', "players" => $jogadores[2]),
-				1 => array("fase" => "Campeão","players" => $jogadores[1])),
-			16 => array(
-				16 => array("fase" => 'R1',"players" => $jogadores[16]), 
-				8 => array("fase" => 'QF',"players" => $jogadores[8]), 
-				4 => array("fase" => 'SF',"players" => $jogadores[4]), 
-				2 => array("fase" => 'Final',"players" => $jogadores[2]),
-				1 => array("fase" => "Campeão","players" => $jogadores[1])),
-			32 => array(
-				32 => array("fase" => 'R1',"players" => $jogadores[32]),
-				16 => array("fase" => 'R2',"players" => $jogadores[16]), 
-				8 => array("fase" => 'QF',"players" => $jogadores[8]), 
-				4 => array("fase" => 'SF',"players" => $jogadores[4]), 
-				2 => array("fase" => 'Final',"players" => $jogadores[2]),
-				1 => array("fase" => "Campeão","players" => $jogadores[1])
-				),
-			64 => array(64 => 'R1', 32 => 'R2', 16 => 'R3', 8 => 'QF', 4 => 'SF', 2 => 'Final'),
-			128 => array(128 => 'R1', 64 => 'R2', 32 => 'R3', 16 => 'R4', 8 => 'QF', 4 => 'SF', 2 => 'Final')
-	);
+	$arr_round_data = array();
+	if($int_player_total == 32){
+		$arr_round_data = array(
+				32 => array(
+					32 => array("fase" => 'R1',"players" => $jogadores[32]),
+					16 => array("fase" => 'R2',"players" => $jogadores[16]), 
+					8 => array("fase" => 'QF',"players" => $jogadores[8]), 
+					4 => array("fase" => 'SF',"players" => $jogadores[4]), 
+					2 => array("fase" => 'Final',"players" => $jogadores[2]),
+					1 => array("fase" => "Campeão","players" => $jogadores[1])
+				)
+
+		);
+	}else if($int_player_total == 16){
+			$arr_round_data = array(
+				16 => array(
+					16 => array("fase" => 'R1',"players" => $jogadores[16]), 
+					8 => array("fase" => 'QF',"players" => $jogadores[8]), 
+					4 => array("fase" => 'SF',"players" => $jogadores[4]), 
+					2 => array("fase" => 'Final',"players" => $jogadores[2]),
+					1 => array("fase" => "Campeão","players" => $jogadores[1])
+				)
+			);
+	}else if($int_player_total == 8){
+			$arr_round_data = array(
+				2 => array(2 => 'Final'),
+				4 => array(4 => 'SF', 2 => 'Final'),
+				8 => array( 
+					8 => array("fase" => 'QF', "players" => $jogadores[8]), 
+					4 => array("fase" => 'SF', "players" => $jogadores[4]), 
+					2 => array("fase" => 'Final', "players" => $jogadores[2]),
+					1 => array("fase" => "Campeão","players" => $jogadores[1])
+				)
+			);
+	}
 	
 	
 	$jogadores_ja_exibidos_por_fase = array();

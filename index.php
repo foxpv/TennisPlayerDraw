@@ -81,15 +81,19 @@
 							array("<div class='data_horario_jogo_r2'> 08/10 09:30 </div><div class='jogador_de_baixo'>Nelson</div>", false), 
 							array(" ", false)),
 						8 => array(
-							array("", false), 
+							array("Fabio 6/4 2/6 10/6", false), 
 							array("", false), 
 							array("Luciano 6/3 3/6 11/9", false), 
 							array(" ", false), 
 							array("João 6/1 6/2", false), 
 							array("", false), 
-							array("Nelso 6/1 4/6 10/6", false), 
+							array("Nelson 6/1 4/6 10/6", false), 
 							array(" ", false)),
-						4 => array(array("", false),array("", false),array("", false),array("", false)),
+						4 => array(
+							array("Luciano W.O.", false),
+							array("", false),
+							array("", false),
+							array("", false)),
 						2 => array(array("", false),array("", false)),
 						1 => array(array("", false)),
 						);
@@ -162,7 +166,7 @@
 							array("<div class='data_horario_jogo_r2'> 08/10 11:00hs </div><div class='jogador_de_baixo'>Aldren</div>", false), 
 							array("", false)),
 						8 => array(
-							array("", false), 
+							array("Diogo 6/2 2/6 10/4", false), 
 							array("", false), 
 							array("Bruno 6/4 4/6 10/8", false), 
 							array("", false), 
@@ -259,28 +263,28 @@
 							<td>Vagner</td>
 							<td>2</td>
 							<td>1</td>
-							<td>7</td>
+							<td>6</td>
 						</tr>
 						<tr>
 							<td>2</td>
+							<td>Fernanda</td>
+							<td>2</td>
+							<td>1</td>
+							<td>7</td>
+						</tr>
+						<tr>
+							<td>3</td>
 							<td>Fabio</td>
 							<td>2</td>
 							<td>1</td>
 							<td>5</td>
 						</tr>
 						<tr>
-							<td>3</td>
-							<td>Fernanda</td>
-							<td>1</td>
-							<td>1</td>
-							<td>1</td>
-						</tr>
-						<tr>
 							<td>4</td>
 							<td>Mariliane</td>
 							<td></td>
 							<td>2</td>
-							<td>-13</td>
+							<td>-18</td>
 						</tr>
 					</table>
 				</div>
@@ -290,16 +294,46 @@
 						<tr><td class="head" style="width:250px;">Jogo</td><td class="head">Resultado</td></tr>
 						<tr><td><b>Vagner</b> vs Mariliane 01/10 09:00</td><td>Vagner 8/1</td></tr>
 						<tr><td>Fernanda vs <b>Fabio</b> 01/10 14:00 </td><td>Fabio 8/6</td></tr>
-						<tr><td><b>Fernanda</b> vs Vagner</td><td>Fernanda 8/5</td></tr>
+						<tr><td><b>Fernanda</b> vs Vagner</td><td>Fernanda 8/4</td></tr>
 						<tr><td>Fabio vs <b>Vagner</b> 06/10 17:00</td><td>Vagner 8/5</td></tr>
-						<tr><td>Fernanda vs Mariliane 30/09 15:00</td><td></td></tr>						
+						<tr><td><b>Fernanda</b> vs Mariliane 30/09 15:00</td><td>Fernanda 9/4</td></tr>						
 						<tr><td><b>Fabio</b> vs Mariliane 08/10 15:00</td><td>Fabio 8/2</td></tr>
 					</table>
 				</div>
 			</div>
-			<a href="javascript:printDiv('dv_classe_c')">Imprimir</a>
+			<div class="row" >
+				<div class="span12">
+					<?php
+
+					$jogadoresC = array(
+						8 => array(
+							array("Thiago", false), 
+							array("", false), 
+							array("Fernanda", false), 
+							array("", false), 
+							array("Alessandra", false), 
+							array("", false), 
+							array("Vagner", false), 
+							array("", false)),
+						4 => array(
+							array("", false),
+							array("", false),
+							array("", false),
+							array("", false)),
+						2 => array(array("", false),array("", false)),
+						1 => array(array("", false)),
+						);
+					$html = tabela_chave(8, $jogadoresC);
+					echo($html);
+					?>
+				</div>
+				
+			</div>
+			<a href="javascript:printDiv('dv_classe_c')">Imprimir</a>	
 		</div>
+		
 	</div>
+	
 	
 	<iframe name="print_frame" width="0" height="0" frameborder="0" src="about:blank"></iframe>
 </body>
